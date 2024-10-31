@@ -1,0 +1,112 @@
+[ERROR/2024-07-04 01:13:14,594] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await event.send_file(event.chat.id, file="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/events/newmessage.py", line 217, in __getattr__
+    return getattr(self.message, item)
+AttributeError: 'Message' object has no attribute 'send_file'
+[ERROR/2024-07-04 01:13:38,310] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await event.send_photo(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/events/newmessage.py", line 217, in __getattr__
+    return getattr(self.message, item)
+AttributeError: 'Message' object has no attribute 'send_photo'
+[ERROR/2024-07-04 01:16:46,965] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await client.send_photo(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+NameError: name 'client' is not defined
+[ERROR/2024-07-04 01:18:47,891] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await event.reply_photo(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/events/newmessage.py", line 217, in __getattr__
+    return getattr(self.message, item)
+AttributeError: 'Message' object has no attribute 'reply_photo'
+[ERROR/2024-07-04 01:19:51,318] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await Drone.send_photo(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+AttributeError: 'TelegramClient' object has no attribute 'send_photo'
+[ERROR/2024-07-04 01:20:10,737] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await Drone.reply_photo(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+AttributeError: 'TelegramClient' object has no attribute 'reply_photo'
+[ERROR/2024-07-04 01:21:50,576] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await Drone.upload_photo(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+AttributeError: 'TelegramClient' object has no attribute 'upload_photo'
+[ERROR/2024-07-04 01:22:18,999] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 22, in start
+    await start_srb(event, text)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 8, in start_srb
+    await Drone.send_file(event.chat.id, photo="https://telegra.ph/file/801289ebfeadd84e08578.jpg", caption=st)
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/sync.py", line 34, in syncified
+    coro = method(*args, **kwargs)
+TypeError: UploadMethods.send_file() missing 1 required positional argument: 'file'
+[ERROR/2024-07-04 03:35:29,129] telethon.client.updates:483: Unhandled exception on clone
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/main/plugins/frontend.py", line 14, in force_sub
+    x = await client(GetParticipantRequest(channel=channel, participant=int(id)))
+NameError: name 'GetParticipantRequest' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/frontend.py", line 42, in clone
+    s, r = await force_sub(event.client, "ixvauz", event.sender_id, ft)
+  File "/root/bots/XdownBot/main/plugins/frontend.py", line 20, in force_sub
+    except UserNotParticipantError:
+NameError: name 'UserNotParticipantError' is not defined
+[ERROR/2024-07-04 03:40:10,494] telethon.client.updates:483: Unhandled exception on start
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/main/plugins/start.py", line 18, in force_sub
+    x = await client(GetParticipantRequest(channel=channel, participant=int(id)))
+NameError: name 'GetParticipantRequest' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/bots/XdownBot/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 467, in _dispatch_update
+    await callback(event)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 40, in start
+    s, r = await force_sub(event.client, "ixvauz", event.sender_id, ft)
+  File "/root/bots/XdownBot/main/plugins/start.py", line 24, in force_sub
+    except UserNotParticipantError:
+NameError: name 'UserNotParticipantError' is not defined
